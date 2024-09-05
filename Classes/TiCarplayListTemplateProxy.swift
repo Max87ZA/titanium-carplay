@@ -37,9 +37,9 @@ public class TiCarplayListTemplateProxy : TiCarplayTemplateProxy {
       return []
     }
     
-    return sections.enumerated().map { (sectionIndex, section) in
+      return sections.enumerated().map { (sectionIndex, section) in
       if let items = section["items"] as? [[String: Any]] {
-        return CPListSection(items: items.enumerated().map({ (itemIndex, item) in
+          return CPListSection(items: items.enumerated().map({ (itemIndex, item) in
           let text = item["text"] as? String
           let detailText = item["detailText"] as? String
           let image = item["image"] as? String
@@ -47,7 +47,7 @@ public class TiCarplayListTemplateProxy : TiCarplayTemplateProxy {
 
           let listItem = CPListItem(text: text, detailText: detailText)
           listItem.handler = { [weak self] (item, completion) in
-            handler?.callAsync([["sectionIndex": sectionIndex, "itemIndex": itemIndex]], thisObject: self)
+            handler?.callAsync([["sectionIndex": sectionIndex, "itemIndex": itemIndex]], thisObject: self)        
             completion()
           }
           
