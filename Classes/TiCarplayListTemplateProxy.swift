@@ -16,8 +16,20 @@ public class TiCarplayListTemplateProxy : TiCarplayTemplateProxy {
         
     let title = TiUtils.stringValue("title", properties: properties)
     let sections = properties["sections"] as? [[String: Any]]
-
+    
     template = CPListTemplate(title: title, sections: mapped(sections: sections))
+      if let tabImage = TiUtils.stringValue("tabImage", properties: properties)
+      {
+//          template.tabTitle = tabTitle
+          template.tabImage = UIImage(
+              systemName: tabImage
+          )
+      }
+      else
+      {
+//          template.tabSystemItem = .favorites
+      }
+      
   }
   
   private func mapped(sections: [[String: Any]]?) -> [CPListSection] {
@@ -30,6 +42,7 @@ public class TiCarplayListTemplateProxy : TiCarplayTemplateProxy {
         return CPListSection(items: items.enumerated().map({ (itemIndex, item) in
           let text = item["text"] as? String
           let detailText = item["detailText"] as? String
+          let image = item["image"] as? String
           let handler = item["handler"] as? KrollCallback
 
           let listItem = CPListItem(text: text, detailText: detailText)
@@ -45,4 +58,5 @@ public class TiCarplayListTemplateProxy : TiCarplayTemplateProxy {
       return CPListSection(items: [])
     }
   }
+    
 }

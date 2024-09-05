@@ -50,14 +50,66 @@ class TiCarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
       self?.interfaceController?.pushTemplate(infoTemplate, animated: true, completion: nil)
       completion()
     }
+  let listItem4 = CPListItem(text: "List Item 4", detailText: "Show info template")
+  listItem4.handler = { [weak self] (item, completion) in
+    let infoTemplate = CPInformationTemplate(title: "Information", layout: .leading, items: [CPInformationItem(title: "Title", detail: "Subtitle")], actions: [CPTextButton(title: "Action", textStyle: .normal, handler: { _ in
+      self?.interfaceController?.popTemplate(animated: true, completion: nil)
+    })])
+    
+    self?.interfaceController?.pushTemplate(infoTemplate, animated: true, completion: nil)
+    completion()
+  }
 
-    let section = CPListSection(items: [listItem1, listItem2, listItem3])
+    let section = CPListSection(items: [listItem1, listItem2, listItem3, listItem4])
     let listTemplate = CPListTemplate(title: "Home", sections: [section])
-    
-    listTemplate.tabSystemItem = .featured
     listTemplate.showsTabBadge = false
+      
+      var listItems = [CPListItem]()
+      
+      // Use default list of songs data and create a list
+      // of CPListItems from the default songs.
+      var defaultListItems: [CPListItem] = []
+      
+          defaultListItems.append(
+              CPListItem(
+                  text: "song.title",
+                  detailText: "song.artist.name"
+              )
+          )
+      
+      listItems.append(contentsOf: defaultListItems)
+      
+      // Set a handler to handle selection.
+      for listItem in listItems {
+          listItem.handler = { item, completion in
+              print("\(String(describing: item.text)) - selected.")
+          }
+      }
+      
+      // Create a CPListSection using the list items array
+      // created above.
+      let listSection = CPListSection(items: listItems)
+      
+      // Create the list template and set tab image icon.
+      let songsListTemplate = CPListTemplate(
+          title: "Songy",
+          sections: [ listSection ]
+      )
+//      songsListTemplate.tabImage = UIImage(
+//          systemName: "music.house"
+//      )
+      songsListTemplate.tabSystemItem = .search
+      
+//      songsListTemplate.tabSystemItem = .search
+      
+      
+      let tabTemplate = CPTabBarTemplate(templates: [listTemplate, songsListTemplate])
+      
+//    listTemplate.tabSystemItem = .featured
+      
     
-    self.interfaceController?.setRootTemplate(listTemplate, animated: true, completion: nil)
+    
+    self.interfaceController?.setRootTemplate(tabTemplate, animated: true, completion: nil)
   }
   
   func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene, didConnect interfaceController: CPInterfaceController, to window: CPWindow) {

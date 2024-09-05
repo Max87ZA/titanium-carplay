@@ -1,0 +1,24 @@
+
+9/5/2024, 2:00:25 AM
+
+Operating System
+  Name                        = macOS
+  Version                     = 14.6.1
+  Architecture                = 64-bit
+  # CPUs                      = 12
+  Memory                      = 34359738368
+
+Node.js
+  Node.js Version             = 20.14.0
+  npm Version                 = 10.7.0
+
+Titanium CLI
+  CLI Version                 = 7.1.0
+
+Titanium SDK
+  SDK Version                 = 12.3.1.GA
+  SDK Path                    = /Users/Max87/Library/Application Support/Titanium/mobilesdk/osx/12.3.1.GA
+  Target Platform             = iphone
+
+Command
+  /Users/Max87/.nvm/versions/node/v20.14.0/bin/node /Users/Max87/.nvm/versions/node/v20.14.0/bin/ti build -b -p ios --stacktrace

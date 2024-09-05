@@ -1,0 +1,107 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s9TiCarplay0aB13TemplateProxyCMu",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCACycfc",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC06updateE04argsySayypG_tFTj",
+            "_$s9TiCarplay0aB19SearchTemplateProxyC06searchD0_07updatedC4Text17completionHandlerySo08CPSearchD0C_SSySaySo10CPListItemCGctFTq",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCMa",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCACycfc",
+            "_$s9TiCarplay0aB19SearchTemplateProxyC06searchD0_07updatedC4Text17completionHandlerySo08CPSearchD0C_SSySaySo10CPListItemCGctFTj",
+            "_$s9TiCarplay0aB17ListTemplateProxyCMn",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCfD",
+            "_$s9TiCarplay0aB13TemplateProxyCMn",
+            "_$s9TiCarplay0aB17ListTemplateProxyCMo",
+            "_$s9TiCarplay0aB13TemplateProxyCfD",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC03tabdE0_9didSelectySo05CPTabdE0C_So10CPTemplateCtFTq",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCfD",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCACycfc",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCN",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCMo",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCMn",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCfD",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCMu",
+            "_$s9TiCarplay0aB13TemplateProxyCN",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCACycfC",
+            "_$s9TiCarplay0aB13TemplateProxyCACycfc",
+            "_$s9TiCarplay0aB17ListTemplateProxyCACycfc",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC15updateTemplates4argsySayypG_tFTq",
+            "_$s9TiCarplay0aB17ListTemplateProxyCN",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC06updateE04argsySayypG_tFTq",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCMa",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCACycfC",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCMa",
+            "_$s9TiCarplay0aB17ListTemplateProxyCMu",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCN",
+            "_$s9TiCarplay0aB19SearchTemplateProxyC06searchD0_14selectedResult17completionHandlerySo08CPSearchD0C_So10CPListItemCyyctFTj",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCfD",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC18getTemplatesLength4argsypSayypG_tFTq",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCMu",
+            "_TiCarplayVersionNumber",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCMo",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCMn",
+            "_$s9TiCarplay0aB13TemplateProxyCMo",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCMo",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC18getTemplatesLength4argsypSayypG_tFTj",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC03tabdE0_9didSelectySo05CPTabdE0C_So10CPTemplateCtFTj",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCMa",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCACycfC",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCMu",
+            "_TiCarplayVersionString",
+            "_$s9TiCarplay0aB19SearchTemplateProxyC06searchD0_14selectedResult17completionHandlerySo08CPSearchD0C_So10CPListItemCyyctFTq",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyCMn",
+            "_$s9TiCarplay0aB19TabBarTemplateProxyC15updateTemplates4argsySayypG_tFTj",
+            "_$s9TiCarplay0aB13TemplateProxyCMa",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCN",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCACycfC",
+            "_$s9TiCarplay0aB13TemplateProxyCACycfC",
+            "_$s9TiCarplay0aB17ListTemplateProxyCACycfC",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCMu",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCMo",
+            "_$s9TiCarplay0aB24InformationTemplateProxyCN",
+            "_$s9TiCarplay0aB17ListTemplateProxyCfD",
+            "_$s9TiCarplay0aB17ListTemplateProxyCMa",
+            "_$s9TiCarplay0aB19SearchTemplateProxyCACycfc",
+            "_$s9TiCarplay0aB18AlertTemplateProxyCMn"
+          ],
+          "objc_class": [
+            "TiCarplaySearchTemplateProxy",
+            "TiCarplayModuleAssets",
+            "TiCarplayTemplateProxy",
+            "TiCarplayInformationTemplateProxy",
+            "TiCarplayAlertTemplateProxy",
+            "TiCarplayListTemplateProxy",
+            "TiCarplayTabBarTemplateProxy"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/TiCarplay.framework/TiCarplay"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "17",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

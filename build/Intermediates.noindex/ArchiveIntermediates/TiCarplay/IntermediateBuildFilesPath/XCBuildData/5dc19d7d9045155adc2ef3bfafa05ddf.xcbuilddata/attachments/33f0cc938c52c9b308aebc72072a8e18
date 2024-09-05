@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/BuildProductsPath/Release-iphoneos/TiCarplay.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/BuildProductsPath/Release-iphoneos/TiCarplay.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "TiCarplay-Swift.h",
+      'external-contents': "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/unextended-interface-header.h",
+    }]
+    }]
+}

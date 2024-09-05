@@ -9,20 +9,22 @@
 import UIKit
 import TitaniumKit
 import CarPlay
+import os
 
 @objc(TiCarplayModule)
 class TiCarplayModule: TiModule {
-
+    
   private lazy var interfaceController: CPInterfaceController? = {
     guard let carPlayScene = UIApplication.shared.connectedScenes.first(where: { $0 is CPTemplateApplicationScene }) as? CPTemplateApplicationScene,
           let sceneDelegate = carPlayScene.delegate as? TiCarPlaySceneDelegate,
           let interfaceController = sceneDelegate.interfaceController else {
       return nil
     }
+      
     
     return interfaceController
   }()
-  
+    let logger = Logger(subsystem: "ti.carplay", category: "module")
   func moduleGUID() -> String {
     return "155b792e-29af-44b3-8b08-66cf0598ab47"
   }
@@ -66,4 +68,6 @@ class TiCarplayModule: TiModule {
     
     interfaceController.dismissTemplate(animated: true, completion: nil)
   }
+  
+    
 }

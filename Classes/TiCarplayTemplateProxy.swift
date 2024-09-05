@@ -11,4 +11,6 @@ import CarPlay
 @objc(TiCarplayTemplateProxy)
 public class TiCarplayTemplateProxy : TiProxy {
   var template: CPTemplate! // to be overridden by the proxy subclasses
+    
+    
 }

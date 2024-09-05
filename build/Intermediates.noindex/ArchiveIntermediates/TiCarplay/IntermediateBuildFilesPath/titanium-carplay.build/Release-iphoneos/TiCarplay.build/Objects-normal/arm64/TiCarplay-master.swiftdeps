@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "6f678c058f9d6aba2384bdbb9fb929cd296c70b08215cb2ee7afa4c3124424d8"
+build_start_time: [1725494433, 899184000]
+build_end_time: [1725494438, 498044000]
+inputs:
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarPlaySceneDelegate.swift": [1700129391, 995668334]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayAlertTemplateProxy.swift": [1698838720, 194357156]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayInformationTemplateProxy.swift": [1725493882, 652877208]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayListTemplateProxy.swift": [1700015040, 801719432]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayModule.swift": [1700135376, 940554317]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayTemplateProxy.swift": [1699972402, 362153660]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/TiCarplaySearchTemplateProxy.swift": [1698850799, 478010276]
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/TiCarplayTabBarTemplateProxy.swift": [1700142356, 303067011]

@@ -1,0 +1,10 @@
+framework module TiCarplay {
+  umbrella header "TiCarplay.h"
+  export *
+
+  module * { export * }
+}
+
+module TiCarplay.__Swift {
+  exclude header "TiCarplay-Swift.h"
+}

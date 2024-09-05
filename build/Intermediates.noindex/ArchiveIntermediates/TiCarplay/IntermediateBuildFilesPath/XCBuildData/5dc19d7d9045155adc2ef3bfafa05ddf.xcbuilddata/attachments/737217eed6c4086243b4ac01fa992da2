@@ -1,0 +1,50 @@
+{
+  "" : {
+    "const-values" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master.swiftconstvalues",
+    "dependencies" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master.d",
+    "diagnostics" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master.dia",
+    "emit-module-dependencies" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master-emit-module.dia",
+    "swift-dependencies" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplay-master.swiftdeps"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayAlertTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayAlertTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayAlertTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayAlertTemplateProxy.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayInformationTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayInformationTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayInformationTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayInformationTemplateProxy.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayListTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayListTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayListTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayListTemplateProxy.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayModule.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayModule.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayModule.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayModule.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarPlaySceneDelegate.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarPlaySceneDelegate.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarPlaySceneDelegate.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarPlaySceneDelegate.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Classes/TiCarplayTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTemplateProxy.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/TiCarplaySearchTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplaySearchTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplaySearchTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplaySearchTemplateProxy.o"
+  },
+  "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/TiCarplayTabBarTemplateProxy.swift" : {
+    "index-unit-output-path" : "/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTabBarTemplateProxy.o",
+    "llvm-bc" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTabBarTemplateProxy.bc",
+    "object" : "/Users/Max87/Developer/modules/Ti.carplay/titanium-carplay/Build/Intermediates.noindex/ArchiveIntermediates/TiCarplay/IntermediateBuildFilesPath/titanium-carplay.build/Release-iphoneos/TiCarplay.build/Objects-normal/arm64/TiCarplayTabBarTemplateProxy.o"
+  }
+}

@@ -1,0 +1,11 @@
+framework module TiCarplay {
+  umbrella header "TiCarplay.h"
+  export *
+
+  module * { export * }
+}
+
+module TiCarplay.Swift {
+  header "TiCarplay-Swift.h"
+  requires objc
+}
