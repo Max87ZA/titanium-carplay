@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TiCarplay-Swift.h</key>
 		<data>
-		sqBn4BR4Ai/+/T/RnQFWGkV19s4=
+		qIw9xw8XuWGzu1WpnbDnWm0EzQ0=
 		</data>
 		<key>Headers/TiCarplay.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TWJP2agDEIk7BAI5/6+IDyHC7d0=
+		sucKu8S0Hu/PnQSZHfsgArsAnvA=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oDDgp+XniqsKzeoSmX+E1TVaGgA=
+		cXXcv6QRjCjEtG7v7i1hZS+nnl0=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3/adnwEwiHYZfrMM/LPrAFIrN8o=
+		//xycFKGyUU5fhVwjsP8/FisU8M=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bzt+vdHiAeC4ChrPWL6dfF6rERI=
+		1vJjphBEDaJDKQZrsRdovoZBNVg=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3/adnwEwiHYZfrMM/LPrAFIrN8o=
+		//xycFKGyUU5fhVwjsP8/FisU8M=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Zpk9TNMNoLbCdI9J+Iv5FyMLyU=
+		jUuVVjACF0LZD6FmeKpALlDwr2o=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oDDgp+XniqsKzeoSmX+E1TVaGgA=
+		cXXcv6QRjCjEtG7v7i1hZS+nnl0=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+y5tBS5ErsOTfgpVSfQ7U41ihm4=
+		LTSDc6ij4xarJWLYstvHLOVr7/U=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qIbXNbkmWN10mdQl8Dk3S2OpPzo=
+		13Ic8v4i0dpy4nC+qlOOETIcAlw=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+y5tBS5ErsOTfgpVSfQ7U41ihm4=
+		LTSDc6ij4xarJWLYstvHLOVr7/U=
 		</data>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		56yjtYXeeamq8H48ChwkSlfnrKI=
+		t1lWWYVFiPmfJGXkUlYdv7FFVqA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iu9CdpNGjW+Wnl9W50260Paz7Bwe5qrMFAJWJ9u3WHw=
+			k7zaiRqDHnbebf53appLkWroWgrvt7gHRGN2NOwYAn8=
 			</data>
 		</dict>
 		<key>Headers/TiCarplay.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjLDbmDg1W9G2nxz0TM9EfXR9F6Js5EXdWq8bgUx0cQ=
+			Y/3Y9AHV4I2PBfBHx7iONFRs6kHci3pvNpw++Vn46qA=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P36DRoZKb614j4fOop8BcqH0YZo09txaBUTLfv5dXfU=
+			5MrBm4Ud8MevCzCV+1x0t7I7xTxpo9hK/X6zJMNE8JE=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XuAzJFGSZ9YxSuqOAAYSShY34Jn1jJg4GDTPTH8DvVs=
+			nbB+VmHA73drb++Ou9wxqWSuMDPl7GPTIgDG29ArPhI=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P36DRoZKb614j4fOop8BcqH0YZo09txaBUTLfv5dXfU=
+			5MrBm4Ud8MevCzCV+1x0t7I7xTxpo9hK/X6zJMNE8JE=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LSf1NZjxghkxwch4p0PZWk3B7vFYD2p7s7oMUU97XE=
+			tz0bpVzqlRAqG9/YrQLi6KA91j6v8pnD6N/ronb6OFY=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjLDbmDg1W9G2nxz0TM9EfXR9F6Js5EXdWq8bgUx0cQ=
+			Y/3Y9AHV4I2PBfBHx7iONFRs6kHci3pvNpw++Vn46qA=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ct9vceWhzV6sC+Y225slzOtnW0tl/6PHZuTj/QJrzs=
+			E+lVl6NsWDVVHn5Jh/hdR62v/w8h3ZKkaGv77VNZpg4=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EtlIG0EFddNe2UK42afFokC/Bx4qKOSKQApO4GIm86A=
+			b/ZLbv5YJ+ODQUQjkkj3haj2Okgf86ybg5kqMV85HrU=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ct9vceWhzV6sC+Y225slzOtnW0tl/6PHZuTj/QJrzs=
+			E+lVl6NsWDVVHn5Jh/hdR62v/w8h3ZKkaGv77VNZpg4=
 			</data>
 		</dict>
 		<key>Modules/TiCarplay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bvA4bvDdHDnjYUqUm56QtGTPgsUci+2gewKncXpmMX4=
+			SsmIIu1KV9bdPn39syZW2PkTi23Hy1ln/wgSZPkDuiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

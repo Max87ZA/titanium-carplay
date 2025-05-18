@@ -10,6 +10,7 @@
 		1F02500C2AFFC7A500BBE258 /* TiCarplayTabBarTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02500B2AFFC7A500BBE258 /* TiCarplayTabBarTemplateProxy.swift */; };
 		1F4D04222AF288B700A77248 /* TiCarplayInformationTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D04212AF288B700A77248 /* TiCarplayInformationTemplateProxy.swift */; };
 		1F4D04242AF2945200A77248 /* TiCarplaySearchTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D04232AF2945200A77248 /* TiCarplaySearchTemplateProxy.swift */; };
+		1F60265D2C91B809009F3631 /* TiCarplayGridTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F60265C2C91B809009F3631 /* TiCarplayGridTemplateProxy.swift */; };
 		3A5B4FA02AF1B08000451B8C /* TiCarplayListTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B4F9F2AF1B08000451B8C /* TiCarplayListTemplateProxy.swift */; };
 		3A5B4FA22AF1B68A00451B8C /* TiCarplayTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B4FA12AF1B68A00451B8C /* TiCarplayTemplateProxy.swift */; };
 		3A5B4FA42AF1B6C200451B8C /* TiCarplayAlertTemplateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B4FA32AF1B6C200451B8C /* TiCarplayAlertTemplateProxy.swift */; };
@@ -28,6 +29,7 @@
 		1F02500B2AFFC7A500BBE258 /* TiCarplayTabBarTemplateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiCarplayTabBarTemplateProxy.swift; sourceTree = "<group>"; };
 		1F4D04212AF288B700A77248 /* TiCarplayInformationTemplateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiCarplayInformationTemplateProxy.swift; path = Classes/TiCarplayInformationTemplateProxy.swift; sourceTree = "<group>"; };
 		1F4D04232AF2945200A77248 /* TiCarplaySearchTemplateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiCarplaySearchTemplateProxy.swift; sourceTree = "<group>"; };
+		1F60265C2C91B809009F3631 /* TiCarplayGridTemplateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TiCarplayGridTemplateProxy.swift; path = Classes/TiCarplayGridTemplateProxy.swift; sourceTree = "<group>"; };
 		3A5B4F9F2AF1B08000451B8C /* TiCarplayListTemplateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TiCarplayListTemplateProxy.swift; path = Classes/TiCarplayListTemplateProxy.swift; sourceTree = "<group>"; };
 		3A5B4FA12AF1B68A00451B8C /* TiCarplayTemplateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TiCarplayTemplateProxy.swift; path = Classes/TiCarplayTemplateProxy.swift; sourceTree = "<group>"; };
 		3A5B4FA32AF1B6C200451B8C /* TiCarplayAlertTemplateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiCarplayAlertTemplateProxy.swift; path = Classes/TiCarplayAlertTemplateProxy.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				3A5B4F9F2AF1B08000451B8C /* TiCarplayListTemplateProxy.swift */,
 				3A5B4FA32AF1B6C200451B8C /* TiCarplayAlertTemplateProxy.swift */,
 				1F02500B2AFFC7A500BBE258 /* TiCarplayTabBarTemplateProxy.swift */,
+				1F60265C2C91B809009F3631 /* TiCarplayGridTemplateProxy.swift */,
 			);
 			name = Templates;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				1F4D04222AF288B700A77248 /* TiCarplayInformationTemplateProxy.swift in Sources */,
 				1F02500C2AFFC7A500BBE258 /* TiCarplayTabBarTemplateProxy.swift in Sources */,
 				DB34CDE0207B998A005F8E8C /* TiCarplayModuleAssets.m in Sources */,
+				1F60265D2C91B809009F3631 /* TiCarplayGridTemplateProxy.swift in Sources */,
 				3A5B4FA42AF1B6C200451B8C /* TiCarplayAlertTemplateProxy.swift in Sources */,
 				3ADF63452AF16E8A0091A4A4 /* TiCarPlaySceneDelegate.swift in Sources */,
 				DB52E2431E9CD0F800AAAEE0 /* TiCarplayModule.swift in Sources */,
@@ -406,7 +410,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +462,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

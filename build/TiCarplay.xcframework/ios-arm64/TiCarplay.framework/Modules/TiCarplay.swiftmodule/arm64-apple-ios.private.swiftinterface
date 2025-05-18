@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TiCarplay
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios16.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TiCarplay
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import CarPlay
 import Swift
 @_exported import TiCarplay
@@ -16,6 +17,7 @@ import os
 }
 @_inheritsConvenienceInitializers @objc(TiCarplayListTemplateProxy) public class TiCarplayListTemplateProxy : TiCarplay.TiCarplayTemplateProxy {
   @objc override dynamic public func _init(withProperties properties: [Swift.AnyHashable : Any]!)
+  @objc(updateSections:) public func updateSections(_ args: [Any]?)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -27,6 +29,7 @@ import os
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(TiCarplayInformationTemplateProxy) public class TiCarplayInformationTemplateProxy : TiCarplay.TiCarplayTemplateProxy {
+  public var handler: TitaniumKit.KrollCallback?
   @objc override dynamic public func _init(withProperties properties: [Swift.AnyHashable : Any]!)
   @objc override dynamic public init()
   @objc deinit
@@ -37,6 +40,11 @@ import os
   @objc(getTemplatesLength:) public func getTemplatesLength(args: [Any]) -> Any
   @objc(updateTemplates:) public func updateTemplates(args: Swift.Array<Any>)
   @objc(updateTemplate:) public func updateTemplate(args: Swift.Array<Any>)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(TiCarplayGridTemplateProxy) public class TiCarplayGridTemplateProxy : TiCarplay.TiCarplayTemplateProxy {
+  @objc override dynamic public func _init(withProperties properties: [Swift.AnyHashable : Any]!)
   @objc override dynamic public init()
   @objc deinit
 }

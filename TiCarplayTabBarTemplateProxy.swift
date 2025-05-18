@@ -46,11 +46,11 @@ public class TiCarplayTabBarTemplateProxy: TiCarplayTemplateProxy, CPTabBarTempl
 
         } else {
             // Handle the case where "templates" is not an array of TiCarplayTemplateProxy
-            let listItem = CPListItem(text: "List Item ", detailText: "List Item detail text")
+            let listItem = CPListItem(text: "Aplikácia sa načítava", detailText: "Spustite aplikáciu HAKA SYSTEM+ na Vašom iPhone")
             let section = CPListSection(items: [listItem])
             
             let listTemplate = CPListTemplate(title: "Home", sections: [section])
-            listTemplate.tabSystemItem = .featured
+//            listTemplate.tabSystemItem = .featured
             listTemplate.tabTitle = "Home"
             listTemplate.showsTabBadge = false
             template = CPTabBarTemplate(templates: [listTemplate])
@@ -138,6 +138,7 @@ public class TiCarplayTabBarTemplateProxy: TiCarplayTemplateProxy, CPTabBarTempl
         tabBar.updateTemplates(newTemplates)
         logger.info("TabBar update template successfull")
     }
+    
     
     
     

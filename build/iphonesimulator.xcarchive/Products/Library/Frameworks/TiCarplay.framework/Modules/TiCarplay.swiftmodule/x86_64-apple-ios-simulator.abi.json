@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TiCarplay",
+    "printedName": "TiCarplay",
     "children": [
       {
         "kind": "Import",
@@ -69,6 +69,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -195,6 +209,49 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "updateSections",
+            "printedName": "updateSections(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiCarplay@objc(cs)TiCarplayListTemplateProxy(im)updateSections:",
+            "mangledName": "$s9TiCarplay0aB17ListTemplateProxyC14updateSectionsyySayypGSgF",
+            "moduleName": "TiCarplay",
+            "objc_name": "updateSections:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -238,6 +295,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -520,6 +591,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -598,6 +683,116 @@
         "name": "TiCarplayInformationTemplateProxy",
         "printedName": "TiCarplayInformationTemplateProxy",
         "children": [
+          {
+            "kind": "Var",
+            "name": "handler",
+            "printedName": "handler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TitaniumKit.KrollCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KrollCallback",
+                    "printedName": "TitaniumKit.KrollCallback",
+                    "usr": "c:objc(cs)KrollCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvp",
+            "mangledName": "$s9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvp",
+            "moduleName": "TiCarplay",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TitaniumKit.KrollCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KrollCallback",
+                        "printedName": "TitaniumKit.KrollCallback",
+                        "usr": "c:objc(cs)KrollCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvg",
+                "mangledName": "$s9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvg",
+                "moduleName": "TiCarplay",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TitaniumKit.KrollCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KrollCallback",
+                        "printedName": "TitaniumKit.KrollCallback",
+                        "usr": "c:objc(cs)KrollCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvs",
+                "mangledName": "$s9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvs",
+                "moduleName": "TiCarplay",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvM",
+                "mangledName": "$s9TiCarplay0aB24InformationTemplateProxyC7handlerSo13KrollCallbackCSgvM",
+                "moduleName": "TiCarplay",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "_init",
@@ -694,6 +889,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1011,6 +1220,210 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TitaniumKit",
+        "printedName": "TitaniumKit",
+        "declKind": "Import",
+        "moduleName": "TiCarplay",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CarPlay",
+        "printedName": "CarPlay",
+        "declKind": "Import",
+        "moduleName": "TiCarplay"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "TiCarplay"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiCarplayGridTemplateProxy",
+        "printedName": "TiCarplayGridTemplateProxy",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "_init",
+            "printedName": "_init(withProperties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiCarplay@objc(cs)TiCarplayGridTemplateProxy(im)_initWithProperties:",
+            "mangledName": "$s9TiCarplay0aB17GridTemplateProxyC5_init14withPropertiesySDys11AnyHashableVypGSg_tF",
+            "moduleName": "TiCarplay",
+            "overriding": true,
+            "objc_name": "_initWithProperties:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiCarplayGridTemplateProxy",
+                "printedName": "TiCarplay.TiCarplayGridTemplateProxy",
+                "usr": "c:@M@TiCarplay@objc(cs)TiCarplayGridTemplateProxy"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiCarplay@objc(cs)TiCarplayGridTemplateProxy(im)init",
+            "mangledName": "$s9TiCarplay0aB17GridTemplateProxyCACycfc",
+            "moduleName": "TiCarplay",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiCarplay@objc(cs)TiCarplayGridTemplateProxy",
+        "mangledName": "$s9TiCarplay0aB17GridTemplateProxyC",
+        "moduleName": "TiCarplay",
+        "objc_name": "TiCarplayGridTemplateProxy",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@TiCarplay@objc(cs)TiCarplayTemplateProxy",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "TiCarplay.TiCarplayTemplateProxy",
+          "TitaniumKit.TiProxy",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1180,6 +1593,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1303,6 +1730,34 @@
       "value": "\"infotemplate\""
     },
     {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayInformationTemplateProxy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayInformationTemplateProxy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayInformationTemplateProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 38,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
+    },
+    {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayInformationTemplateProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/TiCarplayTabBarTemplateProxy.swift",
       "kind": "StringLiteral",
       "offset": 490,
@@ -1317,16 +1772,30 @@
       "value": "\"tabbartemplate\""
     },
     {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayGridTemplateProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 12,
+      "value": "\"ti.carplay\""
+    },
+    {
+      "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayGridTemplateProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 14,
+      "value": "\"gridtemplate\""
+    },
+    {
       "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayModule.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 1987,
       "length": 12,
       "value": "\"ti.carplay\""
     },
     {
       "filePath": "\/Users\/Max87\/Developer\/modules\/Ti.carplay\/titanium-carplay\/Classes\/TiCarplayModule.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 2011,
       "length": 8,
       "value": "\"module\""
     }

@@ -1,23 +1,23 @@
 
-9/5/2024, 2:00:25 AM
+5/9/2025, 10:42:53 AM
 
 Operating System
   Name                        = macOS
-  Version                     = 14.6.1
+  Version                     = 15.4.1
   Architecture                = 64-bit
   # CPUs                      = 12
   Memory                      = 34359738368
 
 Node.js
   Node.js Version             = 20.14.0
-  npm Version                 = 10.7.0
+  npm Version                 = 10.9.0
 
 Titanium CLI
-  CLI Version                 = 7.1.0
+  CLI Version                 = 7.1.6
 
 Titanium SDK
-  SDK Version                 = 12.3.1.GA
-  SDK Path                    = /Users/Max87/Library/Application Support/Titanium/mobilesdk/osx/12.3.1.GA
+  SDK Version                 = 12.6.3.GA
+  SDK Path                    = /Users/Max87/Library/Application Support/Titanium/mobilesdk/osx/12.6.3.GA
   Target Platform             = iphone
 
 Command
